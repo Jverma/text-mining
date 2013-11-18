@@ -1,0 +1,2 @@
+This repository contains a few python scripts for text mining. 
+Some of these need pandas, numpy and scikit-learn. 
