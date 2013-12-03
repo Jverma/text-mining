@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+"""
+A document classifier based on logistic regression on tf-idf features.
+Author : Janu Verma
+http://www.math.ksu.edu/~jv291/
+Twitter : @januverma
+"""
+
 import numpy as np
 from sklearn import metrics,preprocessing,cross_validation
 from sklearn.feature_extraction.text import TfidfVectorizer
