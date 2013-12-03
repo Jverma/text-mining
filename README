@@ -3,4 +3,6 @@ Some of these need pandas, numpy and scikit-learn.
 
 1. tf-idf_logistic_regression.py is a document classification model using logistic regression on tf-idf vectors. Input is tab separated file containing text entries with binary labels. e.g. emails labeled spam/non-spam, webpages labeled relevant/non-relevant etc. 
 
-2. summauzation.py implements a simple multidocument summarization. It uses graphical methods, similar to unweighted-PageRank algorithm. 
+2. summarization.py implements a naive text summarization algorithm. A more sophisticated app can be found at http://www.math.ksu.edu/~jv291/saransh/
+
+3. 
