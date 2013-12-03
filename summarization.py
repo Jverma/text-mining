@@ -1,6 +1,14 @@
 # coding=UTF-8
+"""
+A naive model for extracting sentences from a text document.
+Author : Janu Verma
+http://www.math.ksu.edu/~jv291/
+Twitter : @januverma
+"""
+
 from __future__ import division
 import re
+import sys
 
 
 
@@ -103,6 +111,6 @@ def get_summary(text):
     return ("\n").join(summary)
  
  
-paper = " "
+paper = sys.argv[1]
 
 print get_summary(paper)
