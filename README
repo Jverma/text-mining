@@ -5,4 +5,4 @@ Some of these need pandas, numpy and scikit-learn.
 
 2. summarization.py implements a naive text summarization algorithm. A more sophisticated app can be found at http://www.math.ksu.edu/~jv291/saransh/
 
-3. 
+3. sentence_completion_by_HMM.py is a bigram langauge model for completing a sentence using Hidden Markov Methods
